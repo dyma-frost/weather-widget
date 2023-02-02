@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>the Weather Widget</title>
+</head>
+
+<body>
+    <div class="widget-body">
+        <div class="top-side">
+            <div class="vertical-left-side">
+                <div class="city"><!-- City --></div>
+                <div class="temperature-now"></div>
+                <div class="temperature-feels-like"><!-- temperature-feels-like --></div>
+            </div>
+            <div class="weather-image"></div>
+            <div class="vertical-right-side">
+                <div class="temperature-max"></div>
+                <div class="temperature-min"></div>
+            </div>
+        </div>
+        <div class="middle-side">
+            <div class="wind"><!-- wind --></div>
+            <div class="humidity"><!-- humidity --></div>
+            <div class="visibility"><!-- visibility --></div>
+
+        </div>
+        <div class="bottom-side">
+            <form action="">
+                <div class="find-location">
+                    <input type="text" id="search" placeholder="Enter Your City">
+                    <button id="button">Go Weather!<br><span>(PUSH ME)</span></button>
+            </form>
+            <div class="signature">Create by dyma.frost</div>
+        </div>
+    </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.widget-body {
+  width: 500px;
+  height: 500px;
+  margin: 200px auto;
+  border-radius: 30px;
+  background: linear-gradient(109.6deg, rgb(120, 143, 251) 11.2%, rgb(133, 235, 255) 91.1%);
+  font-family: "EB Garamond", serif;
+  color: rgb(255, 230, 0);
+  font-size: 43px;
+}
+
+.top-side {
+  width: 500px;
+  height: 200px;
+  display: flex;
+}
+.top-side .vertical-left-side {
+  height: 200px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-side .vertical-left-side .city {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 150px;
+  height: 66px;
+  color: rgb(255, 230, 0);
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.top-side .vertical-left-side .temperature-now {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 150px;
+  height: 66px;
+}
+.top-side .vertical-left-side .temperature-feels-like {
+  width: 150px;
+  height: 66px;
+  font-size: 25px;
+  color: grey;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.top-side .weather-image {
+  width: 200px;
+  height: 200px;
+}
+.top-side .weather-image img {
+  height: 200px;
+  width: 200px;
+}
+.top-side .vertical-right-side {
+  height: 200px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15px;
+}
+.top-side .vertical-right-side .temperature-max {
+  height: 100px;
+}
+.top-side .vertical-right-side .temperature-min {
+  height: 100px;
+}
+
+.middle-side {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.middle-side > div {
+  height: 100px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle-side .wind {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle-side .humidity {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle-side .visibility {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-side {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  position: relative;
+}
+.bottom-side .find-location {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.bottom-side .find-location input {
+  width: 250px;
+  height: 100px;
+  background: transparent;
+  border-style: dashed;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 20px;
+  border-left: none;
+  outline: none;
+}
+.bottom-side .find-location input:focus {
+  background: transparent;
+}
+.bottom-side .find-location input::-moz-placeholder {
+  text-transform: capitalize;
+}
+.bottom-side .find-location input:-ms-input-placeholder {
+  text-transform: capitalize;
+}
+.bottom-side .find-location input::placeholder {
+  text-transform: capitalize;
+}
+.bottom-side button {
+  height: 200px;
+  width: 250px;
+  border-end-end-radius: 30px;
+  background: transparent;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 1s;
+  border: none;
+}
+.bottom-side button span {
+  font-size: 20px;
+  opacity: 0.3;
+}
+.bottom-side button:hover {
+  transition: 1s;
+  font-size: 35px;
+}
+
+.signature {
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top: 95px;
+  color: rgba(0, 0, 0, 0.05);
+}/*# sourceMappingURL=style.css.map */
